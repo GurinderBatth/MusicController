@@ -15,6 +15,9 @@
 		182D52FE21F8BF1B009466F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D52FD21F8BF1B009466F9 /* main.m */; };
 		182D530821F8BF1C009466F9 /* MusicControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D530721F8BF1C009466F9 /* MusicControllerTests.m */; };
 		182D531321F8BF1C009466F9 /* MusicControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D531221F8BF1C009466F9 /* MusicControllerUITests.m */; };
+		182D532221F8C0E3009466F9 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D532121F8C0E3009466F9 /* TabViewController.m */; };
+		182D532521F8C100009466F9 /* AddedControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D532421F8C100009466F9 /* AddedControllerViewController.m */; };
+		182D532821F8C112009466F9 /* AddToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D532721F8C112009466F9 /* AddToViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		182D530E21F8BF1C009466F9 /* MusicControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182D531221F8BF1C009466F9 /* MusicControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicControllerUITests.m; sourceTree = "<group>"; };
 		182D531421F8BF1C009466F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182D532021F8C0E3009466F9 /* TabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		182D532121F8C0E3009466F9 /* TabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		182D532321F8C100009466F9 /* AddedControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddedControllerViewController.h; sourceTree = "<group>"; };
+		182D532421F8C100009466F9 /* AddedControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddedControllerViewController.m; sourceTree = "<group>"; };
+		182D532621F8C112009466F9 /* AddToViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddToViewController.h; sourceTree = "<group>"; };
+		182D532721F8C112009466F9 /* AddToViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				182D52EF21F8BF1A009466F9 /* AppDelegate.m */,
 				182D52F121F8BF1A009466F9 /* ViewController.h */,
 				182D52F221F8BF1A009466F9 /* ViewController.m */,
+				182D532021F8C0E3009466F9 /* TabViewController.h */,
+				182D532121F8C0E3009466F9 /* TabViewController.m */,
+				182D532321F8C100009466F9 /* AddedControllerViewController.h */,
+				182D532421F8C100009466F9 /* AddedControllerViewController.m */,
+				182D532621F8C112009466F9 /* AddToViewController.h */,
+				182D532721F8C112009466F9 /* AddToViewController.m */,
 				182D52F421F8BF1A009466F9 /* Main.storyboard */,
 				182D52F721F8BF1B009466F9 /* Assets.xcassets */,
 				182D52F921F8BF1B009466F9 /* LaunchScreen.storyboard */,
@@ -262,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182D532221F8C0E3009466F9 /* TabViewController.m in Sources */,
 				182D52F321F8BF1A009466F9 /* ViewController.m in Sources */,
 				182D52FE21F8BF1B009466F9 /* main.m in Sources */,
+				182D532821F8C112009466F9 /* AddToViewController.m in Sources */,
+				182D532521F8C100009466F9 /* AddedControllerViewController.m in Sources */,
 				182D52F021F8BF1A009466F9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TabViewController.h"
 
 @interface ViewController ()
 
@@ -19,5 +20,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(IBAction)setRootController:(id)sender{
+    TabViewController * tabController = [self.storyboard instantiateViewControllerWithIdentifier:@"TabViewController"];
+    [[[UIApplication sharedApplication]keyWindow]setRootViewController:tabController];
+    [[[UIApplication sharedApplication]keyWindow]makeKeyAndVisible];
+}
 
 @end
